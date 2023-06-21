@@ -1,0 +1,12 @@
+/** Favorite Books:
+A Will Eternal (5)
+Martial World (4.5)
+My Disciples Are All Villains (4)
+**/
+
+CREATE TABLE novels (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT into novels VALUES (1, "A Will Eternal", 5);
+INSERT into novels VALUES (2, "Martial World", 4.5);
+INSERT into novels VALUES (3, "My Disciples Are All Villains", 4);
+SELECT * FROM novels;
